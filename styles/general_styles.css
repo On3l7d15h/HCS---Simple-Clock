@@ -1,0 +1,51 @@
+/*  */
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: var(--lg-background);
+}
+
+.container .clock-container
+{
+    width: auto;
+    padding: 5px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-white);
+}
+
+    .clock-container .clock
+    {
+        font-size: 200px;
+        color: var(--c-dark-teal);
+    }
+
+.container .github
+{
+    margin: 20px;
+}
+
+    .github a svg
+    {
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 50%;
+        color: var(--c-white-teal);
+    }
+
+    a svg:hover
+    {
+
+        background: var(--c-dark-teal);
+    }

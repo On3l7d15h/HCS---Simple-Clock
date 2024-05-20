@@ -1,0 +1,25 @@
+/* Main Settings */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    transition: .5s all ease;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Root with variables */
+:root
+{
+    --c-light-teal: rgb(205, 232, 229);
+    --c-white-teal: rgb(238, 247, 255);
+    --c-dark-teal: rgb(122, 178, 178);
+    --c-black-teal: rgb(77, 134, 156);
+
+    --c-white: rgb(255, 255, 255);
+
+    --lg-background: linear-gradient(to right, var(--c-light-teal), var(--c-black-teal));
+}
