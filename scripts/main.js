@@ -3,7 +3,7 @@ const { clock: myClock } = {
     clock: document.querySelector(".clock")
 }
 
-//
+// Comentario añadido.
 setInterval(() => {
     
     let hours = new Date().getHours();
